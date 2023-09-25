@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --black: #020202;
+  }
+body{
+    background-color: var(--white);
+    font-family: 'Cairo', sans-serif;
+}
+header{
+background-color: #1e90ff;
+color: #ffffff;
+height: 20vh;
+}
+header h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size:50px;
+    margin-bottom: 15px;
+}
+header i{
+
+    margin-right: 10px;
+}
+
+
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: grid; /* استخدام تخطيط الشبكة */
+    grid-template-columns: repeat(2, 1fr); /* تقسيم الصفحة إلى عمودين متساويين */
+    gap: 20px; /* تضبيط المسافة بين البطاقات */
+    padding: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
